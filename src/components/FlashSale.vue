@@ -9,7 +9,7 @@
     <div class="products flex justify-center mt-4">
       <div class="w-5/6 relative">
         <font-awesome-icon class="left-control absolute top-1/2 text-3xl" icon="chevron-left" />
-        <font-awesome-icon @click="addProduct" class="right-control absolute top-1/2 right-0 text-3xl" icon="chevron-right" />
+        <font-awesome-icon class="right-control absolute top-1/2 right-0 text-3xl" icon="chevron-right" />
 
         <div class="slider flex h-full">
           <FlashSaleProductCard 
@@ -86,14 +86,6 @@ export default {
         unitsLeft: 450
       }]
     } 
-  },
-  methods: {
-    addProduct () {
-      console.log("called") // eslint-disable-line no-console
-      this.products.push({
-        id: this.products.length+1
-      })
-    }
   }
 }
 </script>
