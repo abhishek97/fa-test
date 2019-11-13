@@ -21,4 +21,14 @@ export default {
 * {
   box-sizing: border-box;
 }
+.progress-bar {
+  background-color: #da2a52;
+  border-radius: 10px;
+  height: 10px;
+}
+.progress {
+  background-color: #f5b0b3;
+  border-radius: 10px;
+  height: 10px;
+}
 </style>
